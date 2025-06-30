@@ -9,7 +9,7 @@ export default defineConfig({
     proxy: {
       // any request to /api/** will be forwarded to localhost:8080
       '/api': {
-        target: 'https://nasa-api-app-production.up.railway.app',
+        target: ''http://localhost:8080'',
         changeOrigin: true,
         //rewrite: (path) => path.replace(/^\/api/, ''), 
         // so /api/apod?date=... → http://localhost:8080/apod?date=...
