@@ -85,6 +85,7 @@ pnpm run dev
 Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
+## Add your NASA API key the .env file in backend folder
 
 ## Proxy Configuration
 
