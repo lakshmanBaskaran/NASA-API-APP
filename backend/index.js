@@ -16,7 +16,7 @@ app.use("/api", routes);
 // optional health check
 app.get("/", (_, res) => res.send("🛰️  NASA backend alive"));
 
-const PORT = process.env.PORT || '0.0.0.0';
-app.listen(PORT, () =>
-  console.log(`🚀  API listening on http://localhost:${PORT}`)
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, '0.0.0.0', () =>
+  console.log(`🚀 API listening on http://localhost:${PORT}`)
 );
