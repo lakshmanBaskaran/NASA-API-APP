@@ -5,7 +5,7 @@ import axios from 'axios';
 // 1) Create an axios instance pointing at your backend
 // ————————————————————————————————————————————————
 const client = axios.create({
-  baseURL: `${import.meta.env.VITE_API_URL}/api`, // ✅ uses env variable
+  baseURL:  `${import.meta.env.VITE_API_URL}/api`, // ✅ uses env variable
   timeout: 10_000,
 });
 
